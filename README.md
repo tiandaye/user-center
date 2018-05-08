@@ -1,4 +1,18 @@
-启动项目: `php -S localhost:8088 -t public/`
+# 快速开始
+
+- 安装包: `composer install`
+
+- 复制配置文件, 并修改配置: `cp .env.example .env`【数据库配置, passport配置】
+
+- 执行数据库迁移: `php artisan migrate`
+
+- 安装passport: `php artisan passport:install`
+
+- 启动项目: `php -S localhost:8088 -t public/`
+
+- 生成一条假用户数据: `php artisan db:seed --class=UsersTableSeeder`
+
+# 从零开始构造介绍
 
 ## 项目初始化
 
