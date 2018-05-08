@@ -4,7 +4,7 @@
  * @Author: tianwangchong
  * @Date:   2018-05-07 18:47:01
  * @Last Modified by:   tianwangchong
- * @Last Modified time: 2018-05-07 18:47:56
+ * @Last Modified time: 2018-05-08 17:40:21
  */
 
 use Illuminate\Database\Seeder;
@@ -21,8 +21,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         $user = factory(App\Models\User::class)->create([
-            'name' => 'tian',
-            'email' => 'tian@tian.com',
+            'name' => 'tiandaye',
+            'email' => 'q408596288@vip.qq.com',
             'phone' => '18868196840',
             'password' => bcrypt('123456')
         ]);
